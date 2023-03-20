@@ -19,7 +19,11 @@
     "version": "git add -A",
     "postversion": "git push && git push --tags && rm -rf dist/temp",
     "typescript": "tsc --noEmit",
-    "check-version": "node check_version_hook.js"
+    "check-version": "node check_version_hook.js",
+    "build": "bob build",
+    "release": "release-it",
+    "pods": "cd example && yarn pods",
+    "bootstrap": "yarn && cd example && yarn && yarn setup && yarn pods"
   },
   "keywords": [
     "react-native",
