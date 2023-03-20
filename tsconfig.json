@@ -14,11 +14,9 @@
     "declaration": true,
     "outDir": "./dist"
   },
-  // "include": [
-  //   "src",
-  //   ".eslintrc.js",
-  //   "babel.config.js",
-  // ],
+  "include": [
+    "src",
+  ],
   "exclude": [
     "node_modules",
     "dist",
